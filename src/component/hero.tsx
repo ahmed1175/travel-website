@@ -4,6 +4,7 @@ import React from "react";
 import Button from "./button";
 import AOS from "aos";
 import "aos/dist/aos.css";
+
 const Hero = () => {
   React.useEffect(() => {
     AOS.init({
