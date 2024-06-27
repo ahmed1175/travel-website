@@ -8,9 +8,8 @@ import "aos/dist/aos.css";
 const Hero = () => {
   React.useEffect(() => {
     AOS.init({
-      duration: "900",
-      delay: "500",
-      easing: "ease-out",
+      duration: 900,
+      delay: 500,
     });
   });
   return (
