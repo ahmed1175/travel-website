@@ -10,6 +10,7 @@ const Hero = () => {
     AOS.init({
       duration: 900,
       delay: 500,
+      easing: "ease-out"
     });
   });
   return (
