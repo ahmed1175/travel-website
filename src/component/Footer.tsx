@@ -38,7 +38,7 @@ const Footer = () => {
                 {FOOTER_CONTACT_INFO.links.map((links) => {
                   return (
                     <Link
-                      key={links}
+                      key={links.label}
                       href="/"
                       className="flex gap-4 md:flex-col lg:flex-row "
                     >
