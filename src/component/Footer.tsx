@@ -76,8 +76,7 @@ type FooterCol = {
 };
 const FooterCol = ({ title, children }: FooterCol) => {
   return (
-    <div className="felx flex-col gap-5 "   data-aos="zoom-out"
-    data-aos-delay="300">
+    <div className="felx flex-col gap-5 "  >
       <h4 className="bold-18 whitespace-nowrap ">{title}</h4>
       {children}
     </div>
